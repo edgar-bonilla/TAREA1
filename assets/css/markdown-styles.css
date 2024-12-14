@@ -1,0 +1,459 @@
+
+.markdown-content.espectaculos {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-content.espectaculos h1, .markdown-content.espectaculos h2, .markdown-content.espectaculos h3,
+.markdown-content.espectaculos h4, .markdown-content.espectaculos h5, .markdown-content.espectaculos h6 {
+    color: #2c3e50;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    line-height: 1.3;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.markdown-content.espectaculos h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.markdown-content.espectaculos h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.markdown-content.espectaculos h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.markdown-content.espectaculos h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.markdown-content.espectaculos p {
+    margin: 1em 0;
+    font-size: 1.15em;
+    color: #4d4d4d;
+}
+
+.markdown-content.espectaculos a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid #3498db;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.markdown-content.espectaculos a:hover {
+    color: #1abc9c;
+    border-bottom-color: #1abc9c;
+}
+
+.markdown-content.espectaculos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5em 0;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.markdown-content.espectaculos ul, .markdown-content.espectaculos ol {
+    margin: 1.5em 0;
+    padding-left: 1.5em;
+    font-size: 1.1em;
+}
+
+.markdown-content.espectaculos ul li, .markdown-content.espectaculos ol li {
+    margin-bottom: 0.75em;
+}
+
+.markdown-content.espectaculos ul li:before {
+    content: '•';
+    color: #3498db;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+}
+
+.markdown-content.espectaculos blockquote {
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+    border-left: 5px solid #3498db;
+    background-color: #ecf6ff;
+    font-style: italic;
+    color: #555;
+    position: relative;
+}
+
+.markdown-content.espectaculos blockquote:before {
+    content: "“";
+    font-size: 4em;
+    color: #3498db;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    line-height: 1;
+}
+
+.markdown-content.espectaculos code {
+    background-color: #f4f4f4;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #c0392b;
+}
+
+.markdown-content.espectaculos pre {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 1.2em;
+    border-radius: 12px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+}
+
+.markdown-content.espectaculos pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: 1em;
+}
+
+.markdown-content.espectaculos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 1.1em;
+}
+
+.markdown-content.espectaculos table th, .markdown-content.espectaculos table td {
+    padding: 0.75em 1em;
+    border: 1px solid #ddd;
+}
+
+.markdown-content.espectaculos table th {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: left;
+}
+
+.markdown-content.espectaculos table td {
+    background-color: #f9f9f9;
+}
+
+.markdown-content.espectaculos hr {
+    border: 0;
+    border-top: 3px solid #ddd;
+    margin: 2em 0;
+}
+
+/* ============================================= */
+
+
+.markdown-content.deportes {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    color: #2c3e50;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-content.deportes h1, .markdown-content.deportes h2, .markdown-content.deportes h3,
+.markdown-content.deportes h4, .markdown-content.deportes h5, .markdown-content.deportes h6 {
+    color: #e74c3c;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 0.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.markdown-content.deportes p {
+    margin: 1em 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.markdown-content.deportes a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #e74c3c;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.markdown-content.deportes a:hover {
+    color: #c0392b;
+    border-bottom-color: #c0392b;
+}
+
+.markdown-content.deportes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1em 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-content.deportes ul, .markdown-content.deportes ol {
+    margin: 1.5em 0;
+    padding-left: 1.5em;
+    font-size: 1em;
+    color: #555;
+}
+
+.markdown-content.deportes ul li, .markdown-content.deportes ol li {
+    margin-bottom: 0.75em;
+}
+
+.markdown-content.deportes ul li:before {
+    content: '⚽';
+    color: #e74c3c;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+}
+
+.markdown-content.deportes blockquote {
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+    border-left: 4px solid #e74c3c;
+    background-color: #ffebee;
+    font-style: italic;
+    color: #555;
+    position: relative;
+}
+
+.markdown-content.deportes code {
+    background-color: #f1f1f1;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    color: #c0392b;
+}
+
+.markdown-content.deportes pre {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+}
+
+.markdown-content.deportes pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: 1em;
+}
+
+.markdown-content.deportes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 1.1em;
+}
+
+.markdown-content.deportes table th, .markdown-content.deportes table td {
+    padding: 0.75em 1em;
+    border: 1px solid #ccc;
+}
+
+.markdown-content.deportes table th {
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: left;
+}
+
+.markdown-content.deportes table td {
+    background-color: #f7f7f7;
+}
+
+.markdown-content.deportes hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 2em 0;
+}
+
+
+.markdown-content.sucesos {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Estilos específicos para cada noticia */
+
+.markdown-content.sucesos-1 {
+    border-left: 5px solid #0288d1;
+}
+
+.markdown-content.sucesos-1 h1, .markdown-content.sucesos-1 h2, .markdown-content.sucesos-1 h3 {
+    color: #d9534f;
+    border-bottom: 3px solid #d9534f;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.markdown-content.sucesos-1 p {
+    margin: 1em 0;
+}
+
+.markdown-content.sucesos-1 img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.markdown-content.sucesos-1 blockquote {
+    border-left: 5px solid #d9534f;
+    background-color: #fde2e2;
+    padding: 1em;
+    font-style: italic;
+    margin: 1.5em 0;
+}
+
+.markdown-content.sucesos-2 {
+    border-left: 5px solid #0288d1;
+}
+
+.markdown-content.sucesos-2 h1, .markdown-content.sucesos-2 h2, .markdown-content.sucesos-2 h3 {
+    color: #0288d1;
+    border-bottom: 3px solid #0288d1;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.markdown-content.sucesos-2 p {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+.markdown-content.sucesos-2 img {
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.markdown-content.sucesos-2 ul {
+    padding-left: 1.5em;
+}
+
+.markdown-content.sucesos-2 blockquote {
+    border-left: 5px solid #0288d1;
+    background-color: #b3e5fc;
+    padding: 1em;
+    font-style: italic;
+    margin: 1.5em 0;
+}
+
+.markdown-content.sucesos-3 {
+    background-color: #eafaf1;
+    border-left: 5px solid #28a745;
+}
+
+.markdown-content.sucesos-3 h1, .markdown-content.sucesos-3 h2, .markdown-content.sucesos-3 h3 {
+    color: #28a745;
+    border-bottom: 3px solid #28a745;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.markdown-content.sucesos-3 p {
+    margin: 1em 0;
+    font-size: 1.1em;
+}
+
+.markdown-content.sucesos-3 img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.markdown-content.sucesos-3 blockquote {
+    border-left: 5px solid #28a745;
+    background-color: #c8e6c9;
+    padding: 1em;
+    font-style: italic;
+    margin: 1.5em 0;
+}
+
+
+/* ==================================================== */
+
+
+.markdown-content.sucesos {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .markdown-content.sucesos h1 {
+    color: #c0392b;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .markdown-content.sucesos h2 {
+    color: #c0392b;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .markdown-content.sucesos p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .markdown-content.sucesos img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .markdown-content.sucesos ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  
+  .markdown-content.sucesos ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .markdown-content.sucesos blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eee;
+    border-left: 5px solid #c0392b;
+    font-style: italic;
+  }
+  
